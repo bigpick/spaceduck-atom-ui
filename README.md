@@ -2,7 +2,7 @@
 
 > A [spaceduck](https://github.com/pineapplegiant/spaceduck) theme for [Atom (UI)](https://atom.io/)
 
-![Screenshot](./screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/bigpick/spaceduck-atom-ui/main/screenshot.png)
 
 ---
 
@@ -18,6 +18,5 @@
 
 ## License
 
-[MIT License](./LICENSE)
-
+[MIT License](https://github.com/bigpick/spaceduck-atom-ui/blob/main/LICENSE)
 

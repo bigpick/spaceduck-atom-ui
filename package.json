@@ -1,12 +1,13 @@
 {
   "name": "spaceduck-ui",
   "theme": "ui",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "keywords": [
     "ui",
     "theme",
     "dark",
-    "space"
+    "space",
+    "spaceduck"
   ],
   "description": "Spaceduck: An intergalactic space theme for Atom UI.",
   "license": "MIT",
