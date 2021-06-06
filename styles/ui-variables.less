@@ -1,0 +1,116 @@
+// Spaceduck Atom UI Variables
+// -------------------------------------------------
+// Colors - per official palette; sd = spaceduck
+// -------------------------------------------------
+/// Base
+@sd-red:          #e33400;
+@sd-orange:       #e39400;
+@sd-green:        #5ccc96;
+@sd-yellow:       #f2ce00;
+@sd-purple:       #b3a1e6;
+@sd-purple2:      #7a5ccc;
+@sd-dark-purple:  #30365F;
+@sd-dark-purple2: #686f9a;
+@sd-cyan:         #00a3cc;
+@sd-magenta:      #ce6f8f;
+/// Special
+@sd-background:       #0f111b;
+@sd-foreground:       #ecf0c1;
+@sd-visual-selection: #1b1c36;
+@sd-cursor-line:      #16172d;
+/// Coloration
+@sd-grey:  #818596;
+@sd-grey2: #c1c3cc;
+@sd-white: #ffffff;
+@sd-black: #000000;
+
+@sd-cyan-darkened-10:   #008AB3;
+@sd-green-darkened-10:  #43B37D;
+@sd-orange-darkened-10: #CA7B00;
+@sd-red-darkened-10:    #CA1B00;
+// -------------------------------------------------
+
+
+// Text Colors
+@text-color:           @sd-foreground;
+@text-color-subtle:    @sd-grey;
+@text-color-highlight: @sd-purple;
+@text-color-selected:  @sd-foreground;
+
+@text-color-info:    @sd-cyan;
+@text-color-success: @sd-green;
+@text-color-warning: @sd-orange;
+@text-color-error:   @sd-red;
+
+// Background colors
+@background-color-info:    @sd-cyan-darkened-10;
+@background-color-success: @sd-green-darkened-10;
+@background-color-warning: @sd-orange-darkened-10;
+@background-color-error:   @sd-red-darkened-10;
+
+@background-color-highlight: @sd-visual-selection;
+@background-color-selected:  @sd-cursor-line;
+@app-background-color:       @sd-background;
+
+// Base colors
+@base-background-color: @sd-background;
+@base-border-color:     darken(@base-background-color, 8%);
+
+// Component colors
+@pane-item-background-color: @base-background-color;
+@pane-item-border-color:     @base-border-color;
+
+@input-background-color: @app-background-color;
+@input-border-color:     @base-border-color;
+
+@tool-panel-background-color: @base-background-color;
+@tool-panel-border-color:     @base-border-color;
+
+@inset-panel-background-color: lighten(@base-background-color, 4%);
+@inset-panel-border-color:     @base-border-color;
+
+@panel-heading-background-color: lighten(@base-background-color, 4%);
+@panel-heading-border-color:     @base-border-color;
+
+@overlay-background-color: lighten(@base-background-color, 3%);
+@overlay-border-color:     @base-border-color;
+
+@button-background-color:          @sd-purple2;
+@button-background-color-hover:    @sd-dark-purple;
+@button-background-color-selected: @button-background-color-hover;
+@button-border-color:              @base-border-color;
+
+@tab-bar-background-color:    @base-background-color;
+@tab-bar-border-color:        @sd-purple2;
+@tab-background-color:        @tab-bar-background-color;
+@tab-background-color-active: @sd-visual-selection;
+@tab-border-color:            @sd-dark-purple;
+
+@tree-view-background-color: @base-background-color;
+@tree-view-border-color:     @base-border-color;
+
+// Site colors
+@ui-site-color-1: @sd-cyan;
+@ui-site-color-2: @sd-green;
+@ui-site-color-3: @sd-orange;
+@ui-site-color-4: @sd-magenta;
+@ui-site-color-5: @sd-yellow;
+
+// Sizes
+@font-size: 13px;
+@input-font-size: 14px;
+
+@disclosure-arrow-size: 12px;
+
+@component-padding: 10px;
+@component-icon-padding: 5px;
+@component-icon-size: 16px;
+@component-line-height: 25px;
+
+@tab-height: 35px;
+
+// Misc
+@component-border-radius: 2px;
+@font-family: '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+@use-custom-controls: true; // false uses native controls
+
