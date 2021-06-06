@@ -6,6 +6,9 @@
 
 ---
 
+## Atom Package Registry
+Can be found [here](https://atom.io/packages/spaceduck-ui).
+
 ## Install
 
 1. Install [Atom](https://atom.io)
